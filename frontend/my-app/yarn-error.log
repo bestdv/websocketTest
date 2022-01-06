@@ -1,0 +1,76 @@
+Arguments: 
+  /root/.nvm/versions/node/v16.13.0/bin/node /usr/share/yarn/bin/yarn.js add @material-ui/core/CssBaseline
+
+PATH: 
+  /root/.nvm/versions/node/v16.13.0/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/bin:/sbin:/root/bin:/root/bin
+
+Yarn version: 
+  1.22.15
+
+Node version: 
+  16.13.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@material-ui%2fcore/CssBaseline: Request "https://registry.yarnpkg.com/@material-ui%2fcore/CssBaseline" returned a 405
+      at Request.params.callback [as _callback] (/usr/share/yarn/lib/cli.js:67040:18)
+      at Request.self.callback (/usr/share/yarn/lib/cli.js:140885:22)
+      at Request.emit (node:events:390:28)
+      at Request.<anonymous> (/usr/share/yarn/lib/cli.js:141857:10)
+      at Request.emit (node:events:390:28)
+      at IncomingMessage.<anonymous> (/usr/share/yarn/lib/cli.js:141779:12)
+      at Object.onceWrapper (node:events:509:28)
+      at IncomingMessage.emit (node:events:402:35)
+      at endReadableNT (node:internal/streams/readable:1343:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "my-app",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "@material-ui/core": "^4.12.3",
+      "@testing-library/jest-dom": "^5.16.1",
+      "@testing-library/react": "^9.4.0",
+      "@testing-library/user-event": "^7.2.1",
+      "axios": "^0.24.0",
+      "bootstrap": "^4.4.1",
+      "material-ui-icons": "^1.0.0-beta.36",
+      "react": "^16.12.0",
+      "react-bootstrap": "^1.0.0-beta.16",
+      "react-dom": "^16.12.0",
+      "react-router-dom": "^5.1.2",
+      "react-scripts": "^2.1.3",
+      "react-stomp-hooks": "^2.0.2"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": "react-app"
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
